@@ -1,15 +1,6 @@
 #include<stdio.h>
-int fact(int r)
-{
-    int res;
-        if(r==0)
-        res=1;
-        else
-        {
-            res=r*fact(r-1);
-        }
-        return res;
-    }
+int fact(int r);
+
 void main()
 {
     int n,sum=0,r,res,temp;
@@ -34,4 +25,14 @@ void main()
         
 }
 
-    
+int fact(int r)
+{
+    int res;
+        if(r==0)
+        res=1;
+        else
+        {
+            res=r*fact(r-1);
+        }
+        return res;
+    }
