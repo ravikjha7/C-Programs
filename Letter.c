@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {	
-	char name[20],item[20],outlet[23];
+	char name[30],item[30],outlet[33];
 	
-	printf("Enter your name:\n");
+	printf("Enter customer's name:\n");
 	gets(name);
 	
 	printf("Enter item bought:\n");
