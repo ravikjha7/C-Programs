@@ -19,7 +19,7 @@ void main()
 		scanf("%d",&n);
 		printf("Computer's Turn:\n");
 		srand(time(NULL));
-		val=rand()%2;
+		val=rand()%3;
 		printf("%d\n",val);
 		
 		if(n==0&&val==1||n==1&&val==2||n==2&&val==0)
