@@ -5,7 +5,9 @@ struct node
 	struct node* link;
 };
 struct node *root=NULL;
-void insert();
+void append();
+void addafter();
+void addatbegin();
 void delete();
 void display();
 void main()
@@ -32,4 +34,11 @@ void main()
 		   printf("Invalid Options!!!\n");
 	}
 	}
+}
+void append()
+{
+	struct node *temp;
+	temp=(struct node *)malloc(sizeof(struct node));
+	printf("Enter node data:\n");
+	scanf("%d",temp->data);
 }
