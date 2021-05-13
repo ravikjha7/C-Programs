@@ -1,5 +1,3 @@
-/*56) Write C Program to Find smallest Element in an Array.
-*/
 #include<stdio.h>
 #include<limits.h>
 int main()
@@ -13,13 +11,19 @@ int main()
 		scanf("%d",&arr[i]);
 	}
 	int min=INT_MAX;
+	int max=INT_MIN;
 	for(int i=0;i<n;i++)
 	{
 		if(arr[i]<min)
 		{
 			min=arr[i];
 		}
+		if(arr[i]>max)
+		{
+			max=arr[i];
+		}
 	}
 	printf("Smallest Number : %d\n",min);
+	printf("Biggest Number : %d\n",max);
 	return 0;
 }

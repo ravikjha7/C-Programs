@@ -12,10 +12,6 @@ void main()
 
     for(i=0;i<n;i++)
     {
-        sum=sum+arr[i];
+        printf("%d ",arr[i]);
     }
-    printf("Sum of all elements of the array is : %d\n",sum);
-    
-
-
 }

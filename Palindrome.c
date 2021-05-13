@@ -10,8 +10,6 @@ void main()
         r=n%10;
         sum=sum*10+r;
         n=n/10;
-
-
     }
     n=temp;
 
@@ -19,5 +17,4 @@ void main()
     printf("%d is a Palindrome number\n",n);
     else
     printf("%d is not a Palindrome\n",n);
-    
 }
